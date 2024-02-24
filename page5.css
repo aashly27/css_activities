@@ -1,0 +1,377 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+}
+body{
+    background: #efefef;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #1876f2;
+    padding: 5px 5px;
+}
+.logo{
+    width: 160px;
+    margin-left: 45px;
+}
+.nav-left,.nav-right{
+    display: flex;
+    align-items: center
+    
+}
+.nav-left ul li
+{
+    list-style: none;
+    display: inline-block;
+}
+.nav-left ul li img
+{
+    width: 28px;
+    margin: 0 15px;
+}
+
+.nav-user-icon{
+    margin-left: 30px;
+    padding-top: 10px;
+}
+.nav-user-icon img{
+    width: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+.search-box{
+    
+    background: #efefef;
+   width: 350px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    padding: 0px 15px;
+}
+
+.search-box img{
+    width 18px;
+}
+
+.search-box input{
+    width: 100%;
+    background: transparent;
+    padding: 10px;
+    outline: none;
+    border: 0;
+}
+.online{
+    position: relative;
+}
+.online::after{
+    content: '';
+    width: 7px;
+    height: 7px;
+    border:2px solid #fff;
+    border-radius: 50%;
+    background: #41db51;
+    position: absolute;
+    top: 10px;
+    right: 0px;
+}
+.mind-white-portion{
+    display: flex;
+    position: absolute;
+    margin: 20px auto;
+    width: 600px;
+    height: 200px;
+    background-color: white;
+    padding-top: 20px;
+    right: 245px;
+    position: absolute;
+    top: 40;
+}
+.pro-img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+.label1 {
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+.label2 {
+    font-size: 10px;
+    margin-top: 30px;
+    margin-left: -105px;
+}
+.label3 {
+    font-size: 15px;
+    margin-top: 80px;
+    margin-left: -30px;
+    font-family: serif;
+}
+
+.label3::after {
+    content: '';
+    display: block;
+    width: 250%;
+    height: 2px;
+    background-color: #efefef; 
+    margin-top: 45px; 
+}
+.lvideo-img
+{
+    width:20px;
+    height: 14px;
+    margin-left: -178px;
+    margin-top: 150px;
+}
+.lvideo
+{
+    margin-left: -50px;
+    margin-top: 100px;
+    margin-left: 6px;
+}
+.photo-img
+{
+    width:18px;
+    height: 16px;
+    margin-left: 25px;
+    margin-top: 150px;
+}
+.photo
+{
+    margin-left: -50px;
+    margin-top: 100px;
+    margin-left: 6px;
+}
+.video-img
+{
+    width:20px;
+    height: 20px;
+    margin-left: 23px;
+    margin-top: 155px;
+}
+.video
+{
+    margin-left: -50px;
+    margin-top: 101px;
+    margin-left: 6px;
+}
+
+.intro {
+    display: flex;
+    margin: 20px auto;
+    width: 380px;
+    height: 350px;
+    background-color: white;
+    padding-top: 20px;
+    left: 265px;
+    position: absolute;
+    top: 40px; 
+}
+.intro h2{
+    margin-left: 30px;
+}
+.intro label{
+    margin-top: 50px;
+    margin-left: -35px;
+    font-family: serif;
+
+}
+
+.line {
+    content: '';
+    display: block;
+    width: 350px;
+    height: 2px;
+    background-color: #efefef; 
+    margin-top: 110px; 
+    position: absolute;
+    left: 15px;
+}
+
+.job {
+    width: 30px;
+    height: 30px;
+    margin-left: -362px;
+    margin-top: 130px;
+}
+
+.ljob {
+    width: 30px;
+    height: 30px;
+    position:relative;
+    left: 40px; 
+    top: -10px; 
+    font-family: serif;
+    font-size: 20px;
+}
+.university {
+    width: 30px;
+    height: 30px;
+    margin-left: -362px;
+    margin-top: 170px;
+}
+
+.luniversity {
+    width: 30px;
+    height: 30px;
+    position:relative;
+    left: 40px; 
+    top: -9px; 
+    font-family: serif;
+    font-size: 20px;
+}
+.school {
+    width: 30px;
+    height: 30px;
+    margin-left: -362px;
+    margin-top: 215px;
+}
+
+.lschool {
+    width: 30px;
+    height: 30px;
+    position:relative;
+    left: 40px; 
+    top: -9px; 
+    font-family: serif;
+    font-size: 20px;
+}
+.home {
+    width: 30px;
+    height: 30px;
+    margin-left: -362px;
+    margin-top: 255px;
+}
+
+.lhome {
+    width: 30px;
+    height: 30px;
+    position:relative;
+    left: 40px; 
+    top: -9px; 
+    font-family: serif;
+    font-size: 20px;
+}
+
+.location {
+    width: 30px;
+    height: 30px;
+    margin-left: -362px;
+    margin-top: 295px;
+}
+
+.llocation {
+    width: 30px;
+    height: 30px;
+    position:relative;
+    left: 40px; 
+    top: -9px; 
+    font-family: serif;
+    font-size: 20px;
+}
+.post{
+   display: flex;
+    position: absolute;
+    margin: 20px auto;
+    width: 600px;
+    height: 500px;
+    background-color: white;
+    padding-top: 20px;
+    right: -208px;
+    position: relative;
+    top: 220;
+    
+}
+.label-name{
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-weight: bold;
+    white-space: nowrap;
+}
+.label-date{
+     font-size: 10px;
+    margin-top: 30px;
+    margin-left: -105px;
+    white-space: nowrap;
+}
+.caption{
+    margin-top: 70px;
+    margin-left: -165px;
+   white-space: nowrap;
+
+}
+
+.feed1{
+    width: 575px;
+    height: 300px;
+    margin-top: 120px;
+    margin-left: -200px;
+
+}
+.like-img{
+    margin-top: 450px;
+    margin-left: -560px;
+    width: 25px;
+    height: 25px
+    
+}
+.like{
+    margin-top: 455px;
+    margin-left: 10px;
+}
+.comment-img{
+    margin-top: 452px;
+    margin-left: 60px;
+    width: 25px;
+    height: 25px
+    
+}
+
+.comment{
+    margin-top: 455px;
+    margin-left: 10px;
+}
+.share-img{
+    margin-top: 452px;
+    margin-left: 60px;
+    width: 25px;
+    height: 25px
+    
+}
+
+.share{
+    margin-top: 455px;
+    margin-left: 10px;
+}
+.photos {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: flex-start; /* Align items to the start of the flex container */
+    margin: 20px auto;
+    width: 380px;
+    height: 350px;
+    background-color: white;
+    padding-top: 20px;
+    left: 265px;
+    position: absolute;
+    top: 430px;
+}
+
+h4 {
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.photo-link {
+    margin-left: 30px;
+    margin-top: 10px; /* Adjust as needed */
+}
