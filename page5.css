@@ -56,7 +56,7 @@ nav{
 }
 
 .search-box img{
-    width 18px;
+    width :18px;
 }
 
 .search-box input{
@@ -373,5 +373,5 @@ h4 {
 
 .photo-link {
     margin-left: 30px;
-    margin-top: 10px;
+    margin-top: 10px; 
 }
