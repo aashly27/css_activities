@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+}
+body{
+    background: #efefef;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #1876f2;
+    padding: 5px 5px;
+}
+.logo{
+    width: 160px;
+    margin-left: 45px;
+}
+.nav-left,.nav-right{
+    display: flex;
+    align-items: center
+    
+}
+.nav-left ul li
+{
+    list-style: none;
+    display: inline-block;
+}
+.nav-left ul li img
+{
+    width: 28px;
+    margin: 0 15px;
+}
+
+.nav-user-icon{
+    margin-left: 30px;
+    padding-top: 10px;
+}
+.nav-user-icon img{
+    width: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+.search-box{
+    
+    background: #efefef;
+   width: 350px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    padding: 0px 15px;
+}
+
+.search-box img{
+    width :18px;
+}
+
+.search-box input{
+    width: 100%;
+    background: transparent;
+    padding: 10px;
+    outline: none;
+    border: 0;
+}
+.online{
+    position: relative;
+}
+.online::after{
+    content: '';
+    width: 7px;
+    height: 7px;
+    border:2px solid #fff;
+    border-radius: 50%;
+    background: #41db51;
+    position: absolute;
+    top: 10px;
+    right: 0px;
+}
+.pro-img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-left: 20px;
+    padding-top: 1px;
+}
+
+.post {
+    display: flex;
+    position: absolute;
+    margin: 20px auto;
+    width: 600px;
+    height: 500px;
+    background-color: white;
+    padding-top: 0px;
+    right: 208px;
+    top: 40px; 
+
+}
+.label-name{
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-weight: bold;
+    white-space: nowrap;
+}
+.label-date{
+     font-size: 10px;
+    margin-top: 30px;
+    margin-left: -105px;
+    white-space: nowrap;
+}
+.caption{
+    margin-top: 70px;
+    margin-left: -165px;
+   white-space: nowrap;
+
+}
+
+.feed1{
+    width: 575px;
+    height: 300px;
+    margin-top: 120px;
+    margin-left: -200px;
+
+}
+.like-img{
+    margin-top: 450px;
+    margin-left: -560px;
+    width: 25px;
+    height: 25px
+    
+}
+.like{
+    margin-top: 455px;
+    margin-left: 10px;
+}
+.comment-img{
+    margin-top: 452px;
+    margin-left: 60px;
+    width: 25px;
+    height: 25px
+    
+}
+
+.comment{
+    margin-top: 455px;
+    margin-left: 10px;
+}
+.share-img{
+    margin-top: 452px;
+    margin-left: 60px;
+    width: 25px;
+    height: 25px
+    
+}
+
+.share{
+    margin-top: 455px;
+    margin-left: 10px;
+}
+.photos {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+    margin: 20px auto;
+    width: 380px;
+    height: 300px;
+    background-color: white;
+    padding-top: 20px;
+    left: 265px;
+    position: absolute;
+    top: 40px;
+}
+
+h4 {
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.photo-link {
+    margin-left: 0px;
+    margin-top: -20px; 
+}
+.photo1{
+    margin-left: 0px;
+    margin-top: 8px; 
+    width: 100px;
+    height: 100px;
+
+}
+.photo2{
+    width: 100px;
+    height: 100px;
+}
+.photo3{
+    width: 100px;
+    height: 100px;
+}
+.photo4{
+    width: 100px;
+    height: 100px;
+}
+.photo5{
+    width: 100px;
+    height: 100px;
+}
+.photo6{
+    width: 100px;
+    height: 100px;
+}
+
+.friends{
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+    margin: 20px auto;
+    width: 380px;
+    height: 400px;
+    background-color: white;
+    padding-top: 20px;
+    left: 265px;
+    position: absolute;
+    top: 380px;
+}
+.label-friend{
+    font-family: serif;
+    font-size: 15px;
+}
+.member1{
+    width: 100px;
+    height: 100px;
+}
+.member2{
+    width: 100px;
+    height: 100px;
+}
+.member3{
+    width: 100px;
+    height: 100px;
+}
+.member4{
+    width: 100px;
+    height: 100px;
+}
+.member5{
+    width: 100px;
+    height: 100px;
+}
+.member6{
+    width: 100px;
+    height: 100px;
+}
+.member7{
+    width: 100px;
+    height: 100px;
+}
+.member8{
+    width: 100px;
+    height: 100px;
+}
+.member9{
+    width: 100px;
+    height: 100px;
+}

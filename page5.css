@@ -354,8 +354,8 @@ nav{
 }
 .photos {
     display: flex;
-    flex-direction: column; /* Stack elements vertically */
-    align-items: flex-start; /* Align items to the start of the flex container */
+    flex-direction: column; 
+    align-items: flex-start; 
     margin: 20px auto;
     width: 380px;
     height: 350px;
@@ -372,6 +372,13 @@ h4 {
 }
 
 .photo-link {
-    margin-left: 30px;
-    margin-top: 10px; 
+    margin-left: 0px;
+    margin-top: -20px; 
+}
+.photo1{
+    margin-left: 0px;
+    margin-top: 8px; 
+    width: 280px;
+    height: 250px;
+
 }
